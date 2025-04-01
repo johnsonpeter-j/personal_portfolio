@@ -1,0 +1,19 @@
+.avatar_card_styles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social_media_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px !important;
+}

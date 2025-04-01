@@ -1,0 +1,26 @@
+.skills_container{
+    margin-top: 1rem !important;
+    display: flex !important;
+    gap: 10px !important;
+    flex-wrap: wrap;
+}
+
+.chip_styles {
+  font-size: 15px !important;
+  padding: 16px 20px !important;
+  border-radius: 7px !important;
+}
+
+.chip_styles .MuiAvatar-root{
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.chip_styles span{
+    padding-left: 10px !important;
+}
+
+.chip_styles:hover {
+  background-color: #ffffff0d;
+  cursor: pointer;
+}

@@ -1,4 +1,6 @@
 .main_box{
-    width: 100vw;
-    height: 100vh;
+    width: calc(100vw - 2rem);
+    height: calc(100vh - 2rem);
+    background-color: #f7f7f7;
+    padding: 1rem !important;
 }
