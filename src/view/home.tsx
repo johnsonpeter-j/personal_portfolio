@@ -1,14 +1,10 @@
-import {
-  Box,
-  createTheme,
-  CssBaseline,
-  Grid,
-  ThemeProvider,
-} from "@mui/material";
+import { Box, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import styles from "./home.module.css";
 import ProfileAvatar from "../components/profiltAvatar/profileAvatar";
 import AboutComponent from "../components/about/about";
 import SkillsComponent from "../components/skills/skillsComponent";
+import ExperienceDetails from "../components/experience/experienceDetails";
+import EducationDetails from "../components/education/educationDetails";
 
 const darkTheme = createTheme({
   palette: {
@@ -21,17 +17,19 @@ const HomePage = () => {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <Box className={styles.main_box} bgcolor={"background.default"}>
-        <Grid
-          container
-          spacing={1}
-          size={{ xs: 12, md: 12, lg: 12, sm: 12, xl: 12 }}
-        >
+        <Box bgcolor={"background.default"} className={styles.left_div}>
           <ProfileAvatar />
+        </Box>
 
+        <Box bgcolor={"background.default"} className={styles.right_div}>
           <AboutComponent />
 
           <SkillsComponent />
-        </Grid>
+
+          <ExperienceDetails />
+
+          <EducationDetails />
+        </Box>
       </Box>
     </ThemeProvider>
   );

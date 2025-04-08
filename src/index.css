@@ -8,6 +8,8 @@ body,
 }
 
 .card_styles{
-  width: calc(100% - 2rem);
+  width: calc(100% - 1rem);
   padding: 1rem !important;
+  height: fit-content;
+  display: inline-table;
 }

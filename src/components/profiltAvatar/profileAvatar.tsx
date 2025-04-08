@@ -1,4 +1,4 @@
-import { Avatar, Box, Card, Grid, IconButton, Typography } from "@mui/material";
+import { Avatar, Box, Card, IconButton, Typography } from "@mui/material";
 import styles from "./profileAvatar.module.css";
 
 import ProfilePic from "../../assets/images/my_pic.png";
@@ -12,7 +12,6 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const ProfileAvatar = () => {
   return (
-    <Grid  size={{ xs: 12, md: 3, lg: 3, sm: 12, xl: 3 }}>
       <Card className={`${styles.avatar_card_styles} card_styles`}>
         <Avatar
           alt="Johnson JP"
@@ -74,7 +73,7 @@ const ProfileAvatar = () => {
           </IconButton>
         </Box>
       </Card>
-    </Grid>
+    
   );
 };
 

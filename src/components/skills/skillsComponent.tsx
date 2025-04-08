@@ -1,4 +1,4 @@
-import { Avatar, Box, Card, Chip, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Card, Chip, Typography } from "@mui/material";
 import styles from "./skillsComponent.module.css";
 
 import FlutterLogo from "../../assets/images/skills/flutter_logo.png";
@@ -48,23 +48,21 @@ const SkillsComponent = () => {
     }
   };
   return (
-    <Grid size={{ xs: 12, md: 3, lg: 3, sm: 12, xl: 3 }}>
-      <Card className="card_styles">
-        <Typography variant="h5" gutterBottom>
-          Skills
-        </Typography>
-        <Box className={styles.skills_container}>
-          {PersonalDetails.skills.map((skillItem: string) => (
-            <Chip
-              avatar={<Avatar alt="F" src={getSkillIcon(skillItem)} />}
-              label={skillItem}
-              className={styles.chip_styles}
-              variant="outlined"
-            />
-          ))}
-        </Box>
-      </Card>
-    </Grid>
+    <Card className="card_styles">
+      <Typography variant="h5" gutterBottom>
+        Skills
+      </Typography>
+      <Box className={styles.skills_container}>
+        {PersonalDetails.skills.map((skillItem: string) => (
+          <Chip
+            avatar={<Avatar alt="F" src={getSkillIcon(skillItem)} />}
+            label={skillItem}
+            className={styles.chip_styles}
+            variant="outlined"
+          />
+        ))}
+      </Box>
+    </Card>
   );
 };
 

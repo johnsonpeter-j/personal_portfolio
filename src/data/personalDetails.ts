@@ -7,9 +7,9 @@ export const PersonalDetails = {
   linkedin: "www.linkedin.com/in/johnson-jp",
   github: "https://github.com/johnsonpeter-j",
   about: [
-    "I am a passionate Full Stack Developer specializing in the MERN stack, with two years of hands-on experience in building dynamic and responsive web applications. My journey in web development has equipped me with the skills to create seamless user experiences while managing both the front-end and back-end of applications.",
-    "I thrive on tackling challenging problems and transforming ideas into efficient and functional solutions. My expertise lies in MongoDB, Express.js, React, and Node.js, allowing me to build robust applications that meet modern standards and user expectations.",
-    "In my previous projects, I've collaborated with cross-functional teams to deliver high-quality software on time, utilizing agile methodologies. I am continuously learning and adapting to new technologies to enhance my skill set and deliver the best possible results.",
+    "Hi, I'm a Full Stack Developer with 2 years of hands-on experience building dynamic and scalable web applications using the MERN stack (MongoDB, Express.js, React, and Node.js). I specialize in crafting clean, efficient code and creating seamless user experiences from front to back.",
+    "I love solving real-world problems through technology and take pride in delivering high-quality solutions that are both functional and user-friendly. Whether it's building RESTful APIs, designing intuitive front-end interfaces, or optimizing back-end performance, I'm always up for a challenge.",
+    "When I’m not coding, I’m usually exploring new tech trends, sharpening my skills, or working on side projects that push my creativity.",
   ],
   skills: [
     "Flutter",
@@ -23,6 +23,44 @@ export const PersonalDetails = {
     "MySql",
     "Firebase",
     "Github",
-    "AmCharts5"
+    "AmCharts5",
+  ],
+  education: [
+    {
+      name: "Karunya Institution of Technology and Science",
+      degree: "B Tech",
+      year: "2019 - 2023",
+    },
+  ],
+  experience: [
+    {
+      companyName: "Scenai Data Science Pvt Ltd, Bangalore.",
+      role: "Full Stack Developer",
+      year: "Mar 2023 - currently working here",
+      description:
+        "As a Full Stack Developer at Scenai Data Science Pvt Ltd, I contributed to the development of robust web applications using the MERN stack. My responsibilities included designing and building RESTful APIs, developing responsive front-end components with React, and managing back-end services using Node.js and MongoDB.",
+    },
+  ],
+  certificate: [
+    {
+      courseName: "Crash Course on Python",
+      provider: "Coursera",
+      issuedOn: "May 2021",
+    },
+    {
+      courseName: "Flutter Beginners Course",
+      provider: "Udemy",
+      issuedOn: "July 2021",
+    },
+    {
+      courseName: "Flutter With Firebase",
+      provider: "Udemy",
+      issuedOn: "Sep 2021",
+    },
+    {
+      courseName: "Frontend Developer (React)",
+      provider: "HackerRank",
+      issuedOn: "Mar 2025",
+    },
   ],
 };

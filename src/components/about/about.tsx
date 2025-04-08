@@ -1,11 +1,10 @@
-import {  Card, Grid, Typography } from "@mui/material";
+import {  Card,  Typography } from "@mui/material";
 import { PersonalDetails } from "../../data/personalDetails";
 
 const AboutComponent = () => {
   return (
-    <Grid size={{ xs: 12, md: 9, lg: 9, sm: 12, xl: 9 }}>
       <Card className="card_styles">
-        <Typography variant="h3" gutterBottom>
+        <Typography variant="h5" gutterBottom>
           About Me
         </Typography>
         <br />
@@ -18,7 +17,6 @@ const AboutComponent = () => {
           </>
         ))}
       </Card>
-    </Grid>
-  );
+      );
 };
 export default AboutComponent;
